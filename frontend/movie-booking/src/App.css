@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*******************************
+        Theme Selection
+*******************************/
+ /* Global */
+ @site       : 'material';  /* Loads material site defaults */
+ @reset      : 'default';
+  /* Elements */
+ @button     : 'github'; /* But uses them with GitHub Buttons */
+ @container  : 'default';
+ @divider    : 'default';
+ @flag       : 'default';
+ @header     : 'default';
+ @icon       : 'default';
+ @image      : 'default';
+ @input      : 'default';
+ @label      : 'default';
+ @list       : 'default';
+ @loader     : 'default';
+ @rail       : 'default';
+ @reveal     : 'default';
+ @segment    : 'default';
+ @step       : 'default';
+  /* Collections */
+ @breadcrumb : 'default';
+ @form       : 'default';
+ @grid       : 'default';
+ @menu       : 'chubby'; /* Other UI can use different themes as well */
+ @message    : 'default';
+ @table      : 'default';
+  /* Modules */
+ @accordion  : 'default';
+ @checkbox   : 'default';
+ @dimmer     : 'default';
+ @dropdown   : 'default';
+ @embed      : 'default';
+ @modal      : 'default';
+ @nag        : 'default';
+ @popup      : 'default';
+ @progress   : 'default';
+ @rating     : 'default';
+ @search     : 'default';
+ @shape      : 'default';
+ @sidebar    : 'default';
+ @sticky     : 'default';
+ @tab        : 'default';
+ @transition : 'default';
+  /* Views */
+ @ad         : 'default';
+ @card       : 'default';
+ @comment    : 'default';
+ @feed       : 'default';
+ @item       : 'default';
+ @statistic  : 'default';
